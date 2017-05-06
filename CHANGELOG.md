@@ -13,6 +13,29 @@ The `patch` version numbers are specific to this library.
 _Nothing yet._
 
 
+## [7.1.5] - 2017-xx-xx
+
+See all related issues and PRs in the [7.1.5 milestone].
+
+### Added
+-
+-
+
+### Changed
+-
+-
+
+### Removed
+-
+
+### Fixed
+-
+-
+
+### Credits
+Thanks go out to [] and [] for their contributions to this version. :clap:
+
+
 ## [7.1.4] - 2017-05-06
 
 See all related issues and PRs in the [7.1.4 milestone].
@@ -589,7 +612,8 @@ See all related issues and PRs in the [5.5 milestone].
 
 
 
-[Unreleased]: https://github.com/wimg/PHPCompatibility/compare/7.1.4...HEAD
+[Unreleased]: https://github.com/wimg/PHPCompatibility/compare/7.1.5...HEAD
+[7.1.5]: https://github.com/wimg/PHPCompatibility/compare/7.1.4...7.1.5
 [7.1.4]: https://github.com/wimg/PHPCompatibility/compare/7.1.3...7.1.4
 [7.1.3]: https://github.com/wimg/PHPCompatibility/compare/7.1.2...7.1.3
 [7.1.2]: https://github.com/wimg/PHPCompatibility/compare/7.1.1...7.1.2
@@ -606,6 +630,7 @@ See all related issues and PRs in the [5.5 milestone].
 [7.0]: https://github.com/wimg/PHPCompatibility/compare/5.6...7.0
 [5.6]: https://github.com/wimg/PHPCompatibility/compare/5.5...5.6
 
+[7.1.5 milestone]: https://github.com/wimg/PHPCompatibility/milestone/17
 [7.1.4 milestone]: https://github.com/wimg/PHPCompatibility/milestone/15
 [7.1.3 milestone]: https://github.com/wimg/PHPCompatibility/milestone/14
 [7.1.2 milestone]: https://github.com/wimg/PHPCompatibility/milestone/13

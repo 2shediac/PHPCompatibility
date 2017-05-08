@@ -23,7 +23,8 @@ See all related issues and PRs in the [7.1.5 milestone].
 
 ### Changed
 -
--
+- :wrench: Code style clean up. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
+- :green_heart: The code base will now be checked for consistent code style during build testing. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
 
 ### Removed
 -
@@ -33,7 +34,7 @@ See all related issues and PRs in the [7.1.5 milestone].
 -
 
 ### Credits
-Thanks go out to [] and [] for their contributions to this version. :clap:
+Thanks go out to [Juliette Reinders Folmer] and [] for their contributions to this version. :clap:
 
 
 ## [7.1.4] - 2017-05-06

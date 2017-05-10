@@ -27,14 +27,14 @@ See all related issues and PRs in the [7.1.5 milestone].
 - :green_heart: The code base will now be checked for consistent code style during build testing. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
 
 ### Removed
--
+- :no_entry_sign: The `NewMagicClassConstant` sniff as introduced in v 7.1.4 contained two additional checks for not strictly compatibility related issues. One of these was plainly wrong, the other opinionated. Both have been removed. [#442](https://github.com/wimg/PHPCompatibility/pull/442). Fixes [#436](https://github.com/wimg/PHPCompatibility/issues/436)
 
 ### Fixed
--
+- :bug: `NewClass` sniff: was reporting an incorrect introduction version number for a few of the Exception classes. [#441](https://github.com/wimg/PHPCompatibility/pull/441). Fixes [#440](https://github.com/wimg/PHPCompatibility/issues/440).
 -
 
 ### Credits
-Thanks go out to [Juliette Reinders Folmer] and [] for their contributions to this version. :clap:
+Thanks go out to [Juliette Reinders Folmer] and [Mark Clements] for their contributions to this version. :clap:
 
 
 ## [7.1.4] - 2017-05-06

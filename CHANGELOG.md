@@ -23,8 +23,11 @@ See all related issues and PRs in the [7.1.5 milestone].
 
 ### Changed
 -
+- :recycle: Various (minor) refactoring for improved performance and sniff accuracy. [#443](https://github.com/wimg/PHPCompatibility/pull/443)
 - :wrench: Code style clean up. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
+- :wrench: Prevent Composer installing PHPCS 3.x. [#444](https://github.com/wimg/PHPCompatibility/pull/444)
 - :green_heart: The code base will now be checked for consistent code style during build testing. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
+- :books: Made it explicit that - at this moment - PHPCS 3.x is not (yet) supported. [#444](https://github.com/wimg/PHPCompatibility/pull/444)
 
 ### Removed
 - :no_entry_sign: The `NewMagicClassConstant` sniff as introduced in v 7.1.4 contained two additional checks for not strictly compatibility related issues. One of these was plainly wrong, the other opinionated. Both have been removed. [#442](https://github.com/wimg/PHPCompatibility/pull/442). Fixes [#436](https://github.com/wimg/PHPCompatibility/issues/436)

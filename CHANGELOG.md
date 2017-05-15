@@ -19,7 +19,7 @@ See all related issues and PRs in the [7.1.5 milestone].
 
 ### Added
 -
--
+- :books: The LGPL-3.0 license. [#447](https://github.com/wimg/PHPCompatibility/pull/447)
 
 ### Changed
 -

@@ -23,10 +23,15 @@ See all related issues and PRs in the [7.1.5 milestone].
 
 ### Changed
 -
+- :rewind: The `NewExecutionDirectives` sniff will now also report on execution directives when used in combination with PHPCS 2.0.0-2.3.3. [#451](https://github.com/wimg/PHPCompatibility/pull/451)
+- :rewind: The `getMethodParameters()` utility method will no longer break when used with PHPCS 1.5.x < 1.5.6. This affected a number of sniffs. [#452](https://github.com/wimg/PHPCompatibility/pull/452)
+- :rewind: The `inUseScope()` utility method will no longer break when used with PHPCS 2.0.0 - 2.2.0. This affected a number of sniffs. [#454](https://github.com/wimg/PHPCompatibility/pull/454)
 - :recycle: Various (minor) refactoring for improved performance and sniff accuracy. [#443](https://github.com/wimg/PHPCompatibility/pull/443)
+- :pencil2: Renamed a test file for consistency. [#453](https://github.com/wimg/PHPCompatibility/pull/453)
 - :wrench: Code style clean up. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
 - :wrench: Prevent Composer installing PHPCS 3.x. [#444](https://github.com/wimg/PHPCompatibility/pull/444)
 - :green_heart: The code base will now be checked for consistent code style during build testing. [#429](https://github.com/wimg/PHPCompatibility/pull/429)
+- :green_heart: The sniffs are now also tested against HHVM for consistent results. [#450](https://github.com/wimg/PHPCompatibility/pull/450)
 - :books: Made it explicit that - at this moment - PHPCS 3.x is not (yet) supported. [#444](https://github.com/wimg/PHPCompatibility/pull/444)
 - :books: Minor improvements to the Readme. [#448](https://github.com/wimg/PHPCompatibility/pull/448), [#449](https://github.com/wimg/PHPCompatibility/pull/449)
 
